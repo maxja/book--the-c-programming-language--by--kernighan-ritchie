@@ -35,4 +35,4 @@ The programm can be compiled via: `cc hello.c`, or `gcc -ansi hello.c`
 * Special EOF signal;
 * Post-assignment comparison;
 * Post-/Pre-increment / decrement;
-* If conditioning and logical or `||` operator.
+* If and else conditioning and logical or `||` operator.
