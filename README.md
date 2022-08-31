@@ -40,6 +40,10 @@ The programm can be compiled via: `cc hello.c`, or `gcc -ansi hello.c`
 ### 1.6 Arrays
 
 * Arrays and indexing;
-* if else-if else branching.
+* If else-if else branching.
 
+### 1.7 Functions
 
+* Function declaration and definition;
+* Function invocation;
+* Return operator.
