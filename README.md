@@ -47,3 +47,11 @@ The programm can be compiled via: `cc hello.c`, or `gcc -ansi hello.c`
 * Function declaration and definition;
 * Function invocation;
 * Return operator.
+
+### 1.8 Arguments - Call by Value
+
+* Function arguments are passed by value.
+
+### 1.9 Character Arrays
+
+* Char array and string terminator `\0`;
