@@ -19,4 +19,4 @@ The programm can be compiled via: `cc hello.c`, or `gcc -ansi hello.c`
 * Multiline comments;
 * Variables declaration, assignment, and numeric types;
 * Looping via while;
-* String formating with %d.
+* String formating with %d for integers and %f for float.
