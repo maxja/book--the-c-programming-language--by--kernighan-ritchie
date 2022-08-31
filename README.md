@@ -55,3 +55,8 @@ The programm can be compiled via: `cc hello.c`, or `gcc -ansi hello.c`
 ### 1.9 Character Arrays
 
 * Char array and string terminator `\0`;
+* Hidden passing by reference.
+
+### 1.10 External Variables and Scope
+
+* Global access via extern.
