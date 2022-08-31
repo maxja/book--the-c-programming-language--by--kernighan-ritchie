@@ -28,3 +28,11 @@ The programm can be compiled via: `cc hello.c`, or `gcc -ansi hello.c`
 ### 1.4 Symbolic Contants
 
 * #define declaration;
+
+### 1.5 Character Input / Output
+
+* getchar / putchar;
+* Special EOF signal;
+* Post-assignment comparison;
+* Post-/Pre-increment / decrement;
+* If conditioning and logical or `||` operator.
