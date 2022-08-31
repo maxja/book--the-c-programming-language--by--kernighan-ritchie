@@ -24,3 +24,7 @@ The programm can be compiled via: `cc hello.c`, or `gcc -ansi hello.c`
 ### 1.3 The for statement
 
 * For loop.
+
+### 1.4 Symbolic Contants
+
+* #define declaration;
