@@ -6,7 +6,17 @@ Chapter 1
 
 ### 1.1 Getting Started
 
-C programm entry point, base syntax overview, and purpose of \n in output.
+* C programm entry point;
+* Base syntax overview;
+* And purpose of \n in output.
+
 ANSI compatible compiler allowed not to define return type for main function.
 
 The programm can be compiled via: `cc hello.c`, or `gcc -ansi hello.c`
+
+### 1.2 Variables and Arithmetic Expressions
+
+* Multiline comments;
+* Variables declaration, assignment, and numeric types;
+* Looping via while;
+* String formating with %d.
