@@ -27,7 +27,7 @@ The programm can be compiled via: `cc hello.c`, or `gcc -ansi hello.c`
 
 ### 1.4 Symbolic Contants
 
-* #define declaration;
+* #define declaration - basically this is a macro;
 
 ### 1.5 Character Input / Output
 
@@ -36,3 +36,10 @@ The programm can be compiled via: `cc hello.c`, or `gcc -ansi hello.c`
 * Post-assignment comparison;
 * Post-/Pre-increment / decrement;
 * If and else conditioning and logical or `||` operator.
+
+### 1.6 Arrays
+
+* Arrays and indexing;
+* if else-if else branching.
+
+
