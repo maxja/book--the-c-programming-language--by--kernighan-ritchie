@@ -59,4 +59,6 @@ The programm can be compiled via: `cc hello.c`, or `gcc -ansi hello.c`
 
 ### 1.10 External Variables and Scope
 
-* Global access via extern.
+* Global access via extern;
+* Extern can be omitted if variable declared 
+in a upper scope and used after.
