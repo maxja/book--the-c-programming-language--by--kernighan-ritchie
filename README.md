@@ -105,9 +105,20 @@ and `./ch01/sub01_02/exerc_celsius_fahrenheit.c`.
 
 #### 1.3 The for statement
 
-* For loop.
+Previously, only one loop construction was introduced to you, `while`. `For` 
+is another one, that accommodate not only condition, but initialization, and 
+post loop action.
 
-#### 1.4 Symbolic Contants
+Authors suggest code example that utilize this construction instead of while 
+with the same fahrenheit - celsius example.
+
+Code that represent this placed here: 
+`./ch01/sub01_03/exmpl_for_fahrenheit_celsius.c`
+
+As an exercise authors ask you to reverse table from hotter to colder one.
+`./ch01/sub01_03/exerc_reversed_fahrenheit_celsius.c`
+
+#### 1.4 Symbolic Constants
 
 * #define declaration - basically this is a macro;
 
