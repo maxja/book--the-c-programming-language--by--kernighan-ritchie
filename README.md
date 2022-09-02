@@ -13,7 +13,19 @@ in the book "The C Programming Language".
 All code collected in a tree-formed directory structure where `chN` is a short 
 for the corresponding chapter and `subN_N` is a short for sub-chapter in it.
 
-[TOC]
+Every book example code file will have preceding `exmpl_` prefix.
+Every exercise code file will have preceding `exerc_` prefix.
+
+```
+.
+|-- ch01
+|   |-- sub01_01
+|   |-- sub01_...
+|   |-- sub01_N
+|-- ch...
+|-- chN
+
+```
 
 ### Chapter 1. A tutorial introduction
 
@@ -24,13 +36,40 @@ declaration and assignment, and so on.
 
 #### 1.1 Getting Started
 
-* C programm entry point;
-* Base syntax overview;
-* And purpose of \n in output.
+>>> All code placed in corresponding directory: `./ch01/sub01_01`.
 
-ANSI compatible compiler allowed not to define return type for main function.
+From this chapter, you will know how basic program structured. It gives you 
+idea of a `main` entry-point, and that `printf` function, that used to print out
+text into output, **is not a part of language**, but a part of library.
 
-The programm can be compiled via: `cc hello.c`, or `gcc -ansi hello.c`
+The book suggest to start with a _hello world_ application, -- simple 
+application that just print out hello world text.
+
+Corresponding code can be found in `./ch01/sub01_01/exmpl_hello_world.c`.
+
+To compile this application you can use cc (C compiler), gcc (GNU C compiler),
+clang (from LLVM family), or any other, like so: `gcc ./exmlp_hello_world.c`. 
+Almost certainly, it will warn you about lack of return type of a main function.
+
+Last edition of this book was issued back in 1988 and describe ANSI version of 
+language. So to suppress this warning, you can provide `-ansi` argument to 
+your compile, it will eliminate this warning.
+
+Compiler will produce binary file for your CPU architecture and current OS 
+runtime.
+
+Book suggest you to experiment with syntax, and intentionally make mistakes to 
+get a feedback from compiler. As well as, create version of the same 
+application but with text splitted onto several lines.
+
+As an exercise, book ask you to leaving-out parts of program, to see whats 
+happened on compile time, and to add some `\c` into `printf` in regards to 
+specified char control-sequence like: `\t` for tab, `\n` for new line, `\b` 
+for backspace and so on.
+
+You can find code corresponding from corresponding exercise by 
+`./ch01/sub01_01/exerc_hello_world_c.c`. Also, there is a use-case with `\b` 
+sequence given.
 
 #### 1.2 Variables and Arithmetic Expressions
 
