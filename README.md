@@ -134,9 +134,9 @@ Along with `printf` standard library provides you also with `getchar` and
 
 ##### 1.5.1 File Copying
 
-The idea of application to pipe input stream and create output using `getchar` 
-and `putchar`. Application will lock itself via `while` loop until `EOF` 
-(end-of-file) mark.
+The idea of the application is to pipe input stream and create output using 
+`getchar` and `putchar`. Application will lock itself via `while` loop until 
+`EOF` (end-of-file) mark.
 
 `EOF` is a constant defined in standard library `stdio.h`.
 
@@ -155,7 +155,21 @@ This exercise code placed in `./ch01/sub01_05/exerc_compare_eof_file_copy.c`.
 Next exercise is to just print what `EOF` valued, and code is placed in 
 `./ch01/sub01_05/exerc_eof_value.c`.
 
-#### 1.5.2 Character Counting
+##### 1.5.2 Character Counting
+
+This application example is similar to previous one, but id doesn't write 
+stream out and only count characters.
+
+Code is in `./ch01/sub01_05/exmpl_count_chars.c`.
+
+Authors suggest you to write slight variation of the same program. The point 
+here is that `int` is allocate less memory space than `double`. Also while 
+loop can be replaced with body-less for loop.
+
+Code is in `./ch01/sub01_05/exmpl_double_size_count_chars.c`.
+
+##### 1.5.3 Line Counting
+
 
 
 * getchar / putchar;
