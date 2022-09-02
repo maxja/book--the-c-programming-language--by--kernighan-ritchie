@@ -3,7 +3,7 @@
 #define IN  1
 #define OUT 0
 
-/* imitate wc */
+/* imitate work of wc */
 main() {
 	int c, nl, nw, nc, state;
 

@@ -190,7 +190,13 @@ aliases `\t`, `\b`, `\\` correspondingly:
 
 ##### 1.5.4 Word Counting
 
+Program in this section should count words, considering that the word is a 
+series of characters not including space, new line or tab.
 
+New concepts here is `else-if` statement and chain variable initialisation.
+
+Corresponding code sample could be found in: 
+`./ch01/sub01_05/exmpl_count_words.c`.
 
 #### 1.6 Arrays
 
