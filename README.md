@@ -120,7 +120,12 @@ As an exercise authors ask you to reverse table from hotter to colder one.
 
 #### 1.4 Symbolic Constants
 
-* #define declaration - basically this is a macro;
+This part will telling you about better practice using named literals and 
+and values and suggest toy use form of constancies (macros, actually) called 
+`#define`, so the authors ask you to rewrite latest code example leveraging 
+this practice.
+
+Code could be found in `./ch01/sub01_04/exmpl_const_fahrenheit_celsius.c`.
 
 #### 1.5 Character Input / Output
 
