@@ -129,6 +129,35 @@ Code could be found in `./ch01/sub01_04/exmpl_const_fahrenheit_celsius.c`.
 
 #### 1.5 Character Input / Output
 
+Along with `printf` standard library provides you also with `getchar` and 
+`putchar` for reading from input stream and writing to output.
+
+##### 1.5.1 File Copying
+
+The idea of application to pipe input stream and create output using `getchar` 
+and `putchar`. Application will lock itself via `while` loop until `EOF` 
+(end-of-file) mark.
+
+`EOF` is a constant defined in standard library `stdio.h`.
+
+Appropriate code could be found in `./ch01/sub01_05/exmpl_file_copy.c`.
+
+Application code can be shrink down to a more compact form, combining 
+assignment from `getchar` and compare with `EOF` in same while condition.
+
+This version can be found in `./ch01/sub01_05/exmpl_compact_file_copy.c`.
+
+In this section, authors ask you to do an exercise and verify if 
+`getchar() != EOF` equals to 0 or 1.
+
+This exercise code placed in `./ch01/sub01_05/exerc_compare_eof_file_copy.c`.
+
+Next exercise is to just print what `EOF` valued, and code is placed in 
+`./ch01/sub01_05/exerc_eof_value.c`.
+
+#### 1.5.2 Character Counting
+
+
 * getchar / putchar;
 * Special EOF signal;
 * Post-assignment comparison;

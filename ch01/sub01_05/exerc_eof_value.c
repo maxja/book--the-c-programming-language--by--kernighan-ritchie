@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 /* value of EOF */
-void main(void) {
+main() {
 	printf("%d\n", EOF);
 }
