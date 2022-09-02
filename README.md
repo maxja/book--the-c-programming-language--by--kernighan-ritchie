@@ -170,13 +170,27 @@ Code is in `./ch01/sub01_05/exmpl_double_size_count_chars.c`.
 
 ##### 1.5.3 Line Counting
 
+As the previous example, but for lines. The purpose of this section to 
+introduce you to condition statement `if`.
+
+> The char in C is just a byte value between 0 and 255. So, it's equal to 
+compare char value both to symbol `'c'` or to the numeric value as `99` would 
+be the value for `c` ASCII character.
+
+Code can be found in `./ch01/sub01_05/exmpl_count_lines.c`.
+
+Exercises for this section would be: 
+* Program that counts blanks, tabs, and new lines: 
+`./ch01/sub01_05/exerc_count_tabs_blanks_newlines.c`;
+* Program that replace one or more blanks to new line: 
+`./ch01/sub01_05/exerc_space_to_newline.c`;
+* Program that replaces tabs, backspace and back solidus to their printable 
+aliases `\t`, `\b`, `\\` correspondingly: 
+`./ch01/sub01_05/exerc_print_nonprintable.c`.
+
+##### 1.5.4 Word Counting
 
 
-* getchar / putchar;
-* Special EOF signal;
-* Post-assignment comparison;
-* Post-/Pre-increment / decrement;
-* If and else conditioning and logical or `||` operator.
 
 #### 1.6 Arrays
 

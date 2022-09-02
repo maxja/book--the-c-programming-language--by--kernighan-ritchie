@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-/* count lines in input */
-void main(void) {
+/* count tabs, spaces and new lines in input */
+main() {
 	int c, blanks, tabs, newlines;
+
 	blanks = tabs = newlines = 0;
 	while ((c = getchar()) != EOF)
 		if (c == '\n')
