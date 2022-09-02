@@ -36,7 +36,7 @@ declaration and assignment, and so on.
 
 #### 1.1 Getting Started
 
->>> All code placed in corresponding directory: `./ch01/sub01_01`.
+> All code placed in corresponding directory: `./ch01/sub01_01`.
 
 From this chapter, you will know how basic program structured. It gives you 
 idea of a `main` entry-point, and that `printf` function, that used to print out
@@ -73,10 +73,35 @@ sequence given.
 
 #### 1.2 Variables and Arithmetic Expressions
 
-* Multiline comments;
-* Variables declaration, assignment, and numeric types;
-* Looping via while;
-* String formating with %d for integers and %f for float.
+Bu also types, loops, conditions and format flags.
+
+As the core example, book suggest you to write application that will print out 
+fahrenheit to celsius table of conversion.
+
+So, it provides you with basic knowledge of what variable is, and how it should 
+be declared and initialized, on how loop works and should be described. Give 
+you a sense of condition and numeric comparison and math operands.
+
+Basic idea is this, application defines lower value, higher value and step for 
+fahrenheit to grow, and value of celsius is calculated for each step and then 
+both should be printed.
+
+Corresponding code can be found in `./ch01/sub01_02/exmpl_fahrenheit_celsius.c`.
+
+Authors informs you that within math operation under integers the real part of 
+number will be truncated, so they suggested you to rewrite same application 
+using float numbers instead of integers.
+
+This version of the code you can find in 
+`./ch01/sub01_02/exmpl_floated_fahrenheit_celsius.c`.
+
+This sub-chapter ask you to do two exercises: first, to modify application 
+that way, that table will have header, and second, create an application that 
+will revert calculation, and will print conversion table from celsius to 
+fahrenheit.
+
+Those two exercises are `./ch01/sub01_02/exerc_headed_fahrenheit_celsius.c` 
+and `./ch01/sub01_02/exerc_celsius_fahrenheit.c`.
 
 #### 1.3 The for statement
 
