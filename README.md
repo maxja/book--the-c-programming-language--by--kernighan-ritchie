@@ -27,6 +27,9 @@ Every exercise code file will have preceding `exerc_` prefix.
 
 ```
 
+Chapters
+---
+
 ### Chapter 1. A tutorial introduction
 
 This chapter will give you brief introduction to the C language basic syntax. 
