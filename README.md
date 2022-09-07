@@ -13,8 +13,8 @@ by Brian W. Kernighan and Dennis M. Ritchie.
 
 Версию на русском можно найти на [livelib.ru](https://www.livelib.ru/book/1000121501-yazyk-programmirovaniya-c-brajan-kernigan-dennis-ritchi-dennis-m-ritchie "на livelib.ru").
 
-All code collected in a tree-formed directory structure where `chN` is a short 
-for the corresponding chapter and `subN_N` is a short for sub-chapter in it.
+All code collected in a tree-formed directory structure where `ch0N` is a short 
+for the corresponding chapter and `sub0N_0N` is a short for sub-chapter in it.
 
 Every book example code file will have preceding `exmpl_` prefix.
 Every exercise code file will have preceding `exerc_` prefix.
