@@ -8,7 +8,10 @@ Abstract
 ---
 
 This is a collection of a follow up notes and code samples taken from the book  
-"The C Programming Language" by Brian W. Kernighan and Dennis M. Ritchie.
+("The C Programming Language")[https://www.goodreads.com/book/show/515601.The_C_Programming_Language] 
+by Brian W. Kernighan and Dennis M. Ritchie.
+
+Версию на русском можно найти на (livelib.ru)[https://www.livelib.ru/book/1000121501-yazyk-programmirovaniya-c-brajan-kernigan-dennis-ritchi-dennis-m-ritchie].
 
 All code collected in a tree-formed directory structure where `chN` is a short 
 for the corresponding chapter and `subN_N` is a short for sub-chapter in it.
