@@ -1,14 +1,14 @@
 The C Programming Language 
 ===
 
-Code examples and exercises from
+Follow up and code examples/exercises from
 Book by Brian W. Kernighan and Dennis M. Ritchie
 
 Abstract
 ---
 
-This playground project is a follow up on a book examples and exercises given 
-in the book "The C Programming Language".
+This is a collection of a follow up notes and code samples taken from the book  
+"The C Programming Language" by Brian W. Kernighan and Dennis M. Ritchie.
 
 All code collected in a tree-formed directory structure where `chN` is a short 
 for the corresponding chapter and `subN_N` is a short for sub-chapter in it.
